@@ -1,0 +1,11 @@
+{
+  "templater-obsidian:Templates/NewPerson.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ]
+}

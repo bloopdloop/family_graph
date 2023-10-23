@@ -1,0 +1,8 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "vimMode": true,
+  "attachmentFolderPath": "Assets",
+  "legacyEditor": false,
+  "livePreview": true
+}

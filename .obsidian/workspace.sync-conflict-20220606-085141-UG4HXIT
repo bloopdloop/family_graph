@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "38910780a27c9218",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffe2ed16fcf60c38",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "juggl_view",
+          "state": {},
+          "pinned": true
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0b16661f07105fda",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "70f21426af872e7b",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "c9ad3c5e557a2e80",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "4beac172aa2c3f6c",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "f4e99066ba4fc0d1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a08e481d06139984",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": true,
+            "unlinkedCollapsed": false
+          }
+        }
+      },
+      {
+        "id": "f740bf08680bf2e1",
+        "type": "leaf",
+        "state": {
+          "type": "juggl_nodes",
+          "state": {}
+        }
+      },
+      {
+        "id": "8c606c4e48b62eb0",
+        "type": "leaf",
+        "state": {
+          "type": "juggl_style",
+          "state": {}
+        }
+      },
+      {
+        "id": "5cbdd43a81e27c9b",
+        "type": "leaf",
+        "state": {
+          "type": "BC-matrix",
+          "state": {}
+        }
+      },
+      {
+        "id": "594ec3220d2fa474",
+        "type": "leaf",
+        "state": {
+          "type": "BC-stats",
+          "state": {}
+        }
+      },
+      {
+        "id": "74ab738c44c9615d",
+        "type": "leaf",
+        "state": {
+          "type": "BC-tree",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "active": "ffe2ed16fcf60c38",
+  "lastOpenFiles": [
+    "People/Renuka Chaudhari.md",
+    "Nehaa Chaudhari.md",
+    "People/Rekha Bhatia.md",
+    "People/Duru Bhatia.md",
+    "People/Rupam Manchandia.md",
+    "People/Karan Manchandia.md",
+    "People/Ajay Manchandia.md",
+    "People/Dewan Bhatia.md",
+    "People/Prem Khanchand Lalla.md",
+    "People/Jyoti Lalla.md"
+  ]
+}

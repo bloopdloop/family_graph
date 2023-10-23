@@ -1,0 +1,37 @@
+{
+  "collapse-filter": false,
+  "search": "-tag:#location",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "#location",
+      "color": {
+        "a": 1,
+        "rgb": 16044801
+      }
+    },
+    {
+      "query": "#people",
+      "color": {
+        "a": 1,
+        "rgb": 1038102
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 2.51216911764706,
+  "lineSizeMultiplier": 3.54215992647059,
+  "collapse-forces": false,
+  "centerStrength": 0,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 313,
+  "scale": 0.06849930579798386,
+  "close": true
+}

@@ -1,0 +1,159 @@
+{
+  "main": {
+    "id": "38910780a27c9218",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffe2ed16fcf60c38",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "juggl_view",
+          "state": {},
+          "pinned": true
+        }
+      },
+      {
+        "id": "41f59fec3c8a8656",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bcf59be746a29676",
+    "type": "split",
+    "children": [
+      {
+        "id": "15b5c6b00e3cd85e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52bb4e68dc14d6ac",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1692008a8a154045",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bcf39aee04a933e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "319b0dbfd4bc4b2c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa5cb65b440f66a6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8cfcfabe3bc4d161",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ec85a28d013c8803",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "05c4cec4dc71e21c",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          },
+          {
+            "id": "78744b49cca47bbf",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "0e57bbfe736bf5a7",
+            "type": "leaf",
+            "state": {
+              "type": "BC-stats",
+              "state": {}
+            }
+          },
+          {
+            "id": "12819820c81b1467",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "41f59fec3c8a8656",
+  "lastOpenFiles": [
+    "People/Ajay Manchandia.md",
+    "People/Mukul Jethwani.sync-conflict-20220222-011901-UG4HXIT.md",
+    "People/Rajesh Bhatia.sync-conflict-20220222-011902-UG4HXIT.md",
+    "People/Rajesh Bhatia.md",
+    "People/Sameer Parwani.sync-conflict-20220222-011900-URWMWQB.md",
+    "People/Savitri Parwani.sync-conflict-20220222-011902-UG4HXIT.md",
+    "People/Sudhir Parwani.md",
+    "People/Khanchand Lalla.sync-conflict-20220222-011904-UG4HXIT.md",
+    "People/Jyoti Lalla.sync-conflict-20220222-011905-URWMWQB.md",
+    "People/Manasvini Ramanan Bhatia.md"
+  ]
+}

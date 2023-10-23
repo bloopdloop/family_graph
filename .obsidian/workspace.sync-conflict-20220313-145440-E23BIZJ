@@ -1,0 +1,150 @@
+{
+  "main": {
+    "id": "38910780a27c9218",
+    "type": "split",
+    "children": [
+      {
+        "id": "95bbfa73ced7a656",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6dc996f8099e6be0",
+    "type": "split",
+    "children": [
+      {
+        "id": "87120df46f86e3a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27e4b0276921e1d5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "51703c214f02e3f0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c2f57e203718088d",
+    "type": "split",
+    "children": [
+      {
+        "id": "898dab4e8b519018",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b54cb8a5a7cf0c60",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b9748c5d0423aac9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a38f20a7c8de8a94",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "ae1d4a4188c9e837",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          },
+          {
+            "id": "3f7bd7b55d382999",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "b5b28f6eb191fe40",
+            "type": "leaf",
+            "state": {
+              "type": "BC-stats",
+              "state": {}
+            }
+          },
+          {
+            "id": "ebb7f4edc8dbb751",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "95bbfa73ced7a656",
+  "lastOpenFiles": [
+    "People/Upasna Bhatia Saini.md",
+    "Overview.md",
+    "People/Akshay Java.md",
+    "People/Amrita Parwani.md",
+    "People/Sameer Parwani.md",
+    "People/Sunil Parwani.md",
+    "People/Chanda Rajat Sahu.md",
+    "People/Ankit Bhatia.md",
+    "People/Sangeeta Parwani.md",
+    "People/Arushi Bhatia.md"
+  ]
+}
