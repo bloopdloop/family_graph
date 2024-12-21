@@ -1,6 +1,11 @@
 ---
-parent: [[[Mulchand Gandhi]], [[Jasota Gandhi]]]
-child: [[[Kanchan Java]], [[Vandana Kanal]], [[Arpana Bhatia]]]
+parent:
+  - - - Mulchand Gandhi
+  - - - Jasota Gandhi
+child:
+  - - - Kanchan Java
+  - - - Vandana Kanal
+  - - - Arpana Bhatia
 ---
 # Mohanlal Gandhi
 #people
