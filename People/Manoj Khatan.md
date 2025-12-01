@@ -1,5 +1,5 @@
 ---
-wife: [[Litika Khattan]]
+wife: [[Litika Khatan]]
 ---
 # Manoj Khattan
 #people

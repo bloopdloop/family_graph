@@ -1,6 +1,6 @@
 ---
 parent: [[[Sukhramdas Bulchand Parwani]], [[Parvati Parwani]]]
-child: [[[Ravi Bhatia]], [[Rajesh Bhatia]], [[Litika Khattan]]]
+child: [[[Ravi Bhatia]], [[Rajesh Bhatia]], [[Litika Khatan]]]
 husband: [[Gopaldas Bhatia]]
 sibling: [[Anand Parwani]]
 ---

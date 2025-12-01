@@ -1,7 +1,8 @@
 ---
 parent: [[[Gopaldas Bhatia]], [[Meera Bhatia]]]
-child: [[Janavi Khattan]]
-husband: [[Manoj Khattan]]
+child: [[Janavi Khatan]]
+husband: [[Manoj Khatan]]
+alias: [Renu Bhatia, Renu Khatan]
 ---
 
 # Litika Khattan
