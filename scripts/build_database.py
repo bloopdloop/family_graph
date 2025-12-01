@@ -11,6 +11,7 @@ import json
 import hashlib
 from pathlib import Path
 from typing import Dict, List, Optional
+from difflib import get_close_matches
 
 # Configuration
 PEOPLE_FOLDER = "People"
@@ -120,6 +121,44 @@ def parse_markdown_files(folder: str) -> List[Dict]:
     return people
 
 
+def validate_and_resolve_relationships(people: List[Dict]) -> tuple[List[Dict], List[str]]:
+    """Validate relationships and resolve names using fuzzy matching."""
+    valid_names = {p['name'] for p in people}
+    valid_names_lower = {name.lower(): name for name in valid_names}
+    warnings = []
+
+    for person in people:
+        for rel_type, names in person['relationships'].items():
+            if rel_type == 'alias':  # Skip aliases - they're not people
+                continue
+
+            resolved_names = []
+            for name in names:
+                if name in valid_names:
+                    resolved_names.append(name)
+                    continue
+
+                # Try case-insensitive exact match
+                if name.lower() in valid_names_lower:
+                    correct_name = valid_names_lower[name.lower()]
+                    warnings.append(f"⚠️  '{person['name']}' → {rel_type} → '{name}' (case mismatch, using '{correct_name}')")
+                    resolved_names.append(correct_name)
+                    continue
+
+                # Try fuzzy match
+                matches = get_close_matches(name, valid_names, n=1, cutoff=0.85)
+                if matches:
+                    warnings.append(f"⚠️  '{person['name']}' → {rel_type} → '{name}' (fuzzy matched to '{matches[0]}')")
+                    resolved_names.append(matches[0])
+                else:
+                    warnings.append(f"❌ '{person['name']}' → {rel_type} → '{name}' (NOT FOUND - relationship will be orphaned)")
+                    resolved_names.append(name)  # Keep for now but warn
+
+            person['relationships'][rel_type] = resolved_names
+
+    return people, warnings
+
+
 def insert_data(conn: sqlite3.Connection, people: List[Dict]):
     """Insert people and relationships into database."""
     cursor = conn.cursor()
@@ -138,6 +177,9 @@ def insert_data(conn: sqlite3.Connection, people: List[Dict]):
 
         for rel_type, names in relationships.items():
             for name in names:
+                # Skip empty names
+                if not name or not name.strip():
+                    continue
                 cursor.execute(
                     'INSERT INTO relationships (from_id, to_name, relationship_type) VALUES (?, ?, ?)',
                     (person_id, name, rel_type)
@@ -194,6 +236,18 @@ def main():
         return
 
     print(f"✅ Found {len(people)} people")
+
+    # Create output directory if needed
+    # Validate and resolve relationships
+    print("🔍 Validating relationships...")
+    people, warnings = validate_and_resolve_relationships(people)
+
+    if warnings:
+        print(f"⚠️  Found {len(warnings)} relationship issues:")
+        for warning in warnings[:10]:  # Show first 10
+            print(f"   {warning}")
+        if len(warnings) > 10:
+            print(f"   ... and {len(warnings) - 10} more warnings")
 
     # Create output directory if needed
     os.makedirs(os.path.dirname(OUTPUT_DB), exist_ok=True)

@@ -25,6 +25,11 @@ jobs:
       run: |
         python scripts/build_database.py
 
+    - name: Validate database consistency
+      run: |
+        python scripts/check_consistency.py
+        echo "✅ Database validation passed"
+
     - name: Check database was created
       run: |
         if [ -f docs/family_graph.db ]; then
