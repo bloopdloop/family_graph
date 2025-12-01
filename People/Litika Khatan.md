@@ -5,7 +5,7 @@ husband: [[Manoj Khatan]]
 alias: [Renu Bhatia, Renu Khatan]
 ---
 
-# Litika Khattan
+# Litika Khatan
 #people
 ### Photo
 
@@ -16,4 +16,3 @@ alias: [Renu Bhatia, Renu Khatan]
 - Maiden Name Renu Bhatia
 - Nickname Huppy
 - Gender Female
-

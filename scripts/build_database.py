@@ -27,11 +27,18 @@ def extract_frontmatter(content: str) -> Dict[str, List[str]]:
     frontmatter = frontmatter_match.group(1)
     relationships = {}
 
-    for rel_type in ['parent', 'child', 'wife', 'husband']:
+    for rel_type in ['parent', 'child', 'wife', 'husband', 'alias']:
         pattern = rf'{rel_type}:\s*(.+)'
         match = re.search(pattern, frontmatter, re.IGNORECASE)
         if match:
             value = match.group(1).strip()
+            # Handle alias format: [Name1, Name2] vs other formats: [[Name]]
+            if rel_type == 'alias':
+                # Aliases use simple list format: [Name1, Name2]
+                value = value.strip('[]')
+                names = [n.strip() for n in value.split(',')]
+                relationships[rel_type] = names
+                continue
             # Extract names from [[Name]] or [[[Name]]] format
             names = re.findall(r'\[\[+([^\]]+)\]+', value)
             relationships[rel_type] = [name.strip() for name in names]

@@ -1,7 +1,7 @@
 ---
 wife: [[Litika Khatan]]
 ---
-# Manoj Khattan
+# Manoj Khatan
 #people
 
 ### Photo

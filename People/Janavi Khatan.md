@@ -1,7 +1,7 @@
 ---
-parent: [[Litika Khattan]]
+parent: [[Litika Khatan]]
 ---
-# Janavi Khattan
+# Janavi Khatan
 #people
 
 ### Photo

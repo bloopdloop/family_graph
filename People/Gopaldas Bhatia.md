@@ -1,6 +1,6 @@
 ---
 parent: [[[Thakuribai]], [[Kanhaiya Lalchand Bhatia]]]
-child: [[[Rajesh Bhatia]], [[[Ravi Bhatia]], [[Litika Khattan]]]]
+child: [[[Rajesh Bhatia]], [[[Ravi Bhatia]], [[Litika Khatan]]]]
 wife: [[Meera Bhatia]]
 ---
 # Gopaldas Bhatia

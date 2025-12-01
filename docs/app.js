@@ -115,7 +115,8 @@ async function loadFamilyData() {
                     parent: [],
                     child: [],
                     wife: [],
-                    husband: []
+                    husband: [],
+                    alias: []
                 }
             });
             familyData.nameToId.set(name_lower, id);
@@ -182,7 +183,9 @@ function buildSiblingRelationships() {
     });
 }
 
-// Helper function to find all person IDs matching a name (ignoring number suffixes)
+// Helper function to find all person IDs matching a name using fuzzy matching
+// Supports partial names: "ravi" matches "Ravi Bhatia", "meera" matches "Meera Bhatia"
+// Also checks aliases: "renu" matches "Litika Khatan" (alias: Renu Bhatia)
 function findMatchingPersonIds(name) {
     const nameLower = name.toLowerCase().trim();
     const matchingIds = [];
@@ -190,7 +193,7 @@ function findMatchingPersonIds(name) {
     // Try exact match first
     const exactId = familyData.nameToId.get(nameLower);
     if (exactId) {
-        matchingIds.push(exactId);
+        return [exactId];
     }
 
     // Try with number suffixes (e.g., "name 1", "name 2", etc.)
@@ -202,7 +205,47 @@ function findMatchingPersonIds(name) {
         }
     }
 
-    return matchingIds;
+    if (matchingIds.length > 0) {
+        return matchingIds;
+    }
+
+    // Check aliases for matches
+    familyData.people.forEach((person, id) => {
+        const aliases = person.relationships.alias || [];
+        aliases.forEach(alias => {
+            const aliasLower = alias.toLowerCase();
+            if (aliasLower === nameLower || aliasLower.includes(nameLower) || nameLower.includes(aliasLower)) {
+                if (!matchingIds.includes(id)) {
+                    matchingIds.push(id);
+                }
+            }
+        });
+    });
+
+    if (matchingIds.length > 0) {
+        return matchingIds;
+    }
+
+    // Use Fuse.js for fuzzy matching
+    const peopleList = Array.from(familyData.people.values()).map(person => ({
+        id: person.id,
+        name: person.name,
+        nameLower: person.name.toLowerCase()
+    }));
+
+    const fuse = new Fuse(peopleList, {
+        keys: ['nameLower'],
+        threshold: 0.4, // 0 = exact match, 1 = match anything
+        ignoreLocation: true, // Don't care where in the string the match is
+        minMatchCharLength: 2 // Minimum 2 characters to match
+    });
+
+    const results = fuse.search(nameLower);
+
+    // Return top matches (up to 10)
+    const fuzzyMatches = results.slice(0, 10).map(result => result.item.id);
+
+    return fuzzyMatches;
 }
 
 // ============ AUTHENTICATION ============

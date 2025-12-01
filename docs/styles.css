@@ -68,7 +68,6 @@ body {
     width: 90%;
     z-index: 1000;
     transition: all 0.3s ease;
-    animation: fadeIn 0.5s ease-out;
 }
 
 #loginPanel.hidden {
@@ -477,9 +476,6 @@ button:focus {
     }
 }
 
-#loginPanel {
-    animation: fadeIn 0.5s ease-out;
-}
 
 #loadingStatus {
     animation: pulse 2s ease-in-out infinite;
