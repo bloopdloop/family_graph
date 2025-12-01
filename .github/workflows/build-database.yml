@@ -1,0 +1,43 @@
+name: Build Family Graph Database
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'People/**'
+      - 'scripts/build_database.py'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Build database
+      run: |
+        python scripts/build_database.py
+
+    - name: Check database was created
+      run: |
+        if [ -f docs/family_graph.db ]; then
+          echo "✅ Database created successfully"
+          ls -lh docs/family_graph.db
+        else
+          echo "❌ Database file not found"
+          exit 1
+        fi
+
+    - name: Commit and push database
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add -f docs/family_graph.db
+        git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-update family graph database" && git push)

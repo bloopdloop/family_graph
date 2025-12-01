@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Test - Family Graph</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+        }
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        button:hover {
+            background: #5568d3;
+        }
+        #result {
+            margin-top: 15px;
+            padding: 10px;
+            background: white;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        .success { color: #2ecc71; }
+        .error { color: #e74c3c; }
+        .info { color: #3498db; }
+        code {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🧪 Family Graph - Local Test</h1>
+
+        <p>This page tests if your GitHub repository is configured correctly.</p>
+
+        <div class="test-section">
+            <h3>Configuration</h3>
+            <p><strong>Repository:</strong> <code id="repoName">tikna/family_graph</code></p>
+            <p><strong>Folder:</strong> <code>People</code></p>
+            <p><small>This is read from app.js line 3. Update it if needed.</small></p>
+        </div>
+
+        <div class="test-section">
+            <h3>Test GitHub API Access</h3>
+            <p>Click the button to test if GitHub can access your repository:</p>
+            <button onclick="testGitHubAPI()">Run Test</button>
+            <div id="result"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>Next Steps</h3>
+            <ol>
+                <li>Make sure the test above passes ✅</li>
+                <li>Open <code>index.html</code> to test the full site locally</li>
+                <li>Deploy to GitHub Pages (see README.md)</li>
+            </ol>
+        </div>
+    </div>
+
+    <script>
+        const CONFIG = {
+            GITHUB_REPO: 'tikna/family_graph',
+            PEOPLE_FOLDER: 'People'
+        };
+
+        document.getElementById('repoName').textContent = CONFIG.GITHUB_REPO;
+
+        async function testGitHubAPI() {
+            const resultEl = document.getElementById('result');
+            resultEl.innerHTML = '<span class="info">⏳ Testing...</span>';
+
+            try {
+                const url = `https://api.github.com/repos/${CONFIG.GITHUB_REPO}/contents/${CONFIG.PEOPLE_FOLDER}`;
+                resultEl.innerHTML += `<br><span class="info">Fetching: ${url}</span>`;
+
+                const response = await fetch(url);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const files = await response.json();
+                const markdownFiles = files.filter(f => f.name.endsWith('.md'));
+
+                resultEl.innerHTML = `
+                    <span class="success">✅ SUCCESS!</span><br>
+                    <br>
+                    <strong>Repository Status:</strong> Accessible<br>
+                    <strong>Files Found:</strong> ${files.length} total, ${markdownFiles.length} markdown<br>
+                    <strong>Rate Limit Remaining:</strong> ${response.headers.get('X-RateLimit-Remaining') || 'N/A'}<br>
+                    <br>
+                    <strong>Sample files:</strong><br>
+                    ${markdownFiles.slice(0, 5).map(f => `• ${f.name}`).join('<br>')}
+                    ${markdownFiles.length > 5 ? '<br>• ...' : ''}
+                `;
+
+            } catch (error) {
+                resultEl.innerHTML = `
+                    <span class="error">❌ ERROR</span><br>
+                    <br>
+                    <strong>Message:</strong> ${error.message}<br>
+                    <br>
+                    <strong>Possible issues:</strong><br>
+                    • Repository name is incorrect in app.js<br>
+                    • Repository is private (must be public)<br>
+                    • Repository doesn't exist<br>
+                    • Internet connection issue<br>
+                    <br>
+                    <strong>To fix:</strong><br>
+                    1. Check app.js line 3: <code>GITHUB_REPO: 'username/repo'</code><br>
+                    2. Ensure your repo is public on GitHub<br>
+                    3. Wait a moment and try again
+                `;
+                console.error('Full error:', error);
+            }
+        }
+    </script>
+</body>
+</html>

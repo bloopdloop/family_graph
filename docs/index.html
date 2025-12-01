@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Graph</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <script src="https://sql.js.org/dist/sql-wasm.js"></script>
+</head>
+<body>
+    <div id="container">
+        <!-- Login Panel -->
+        <div id="loginPanel" class="panel">
+            <h2>Family Graph Login</h2>
+            <p>Enter your name and one of your parent's names to unlock the graph<br><small style="color: #999;">Admins: use "admin" as name</small></p>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="userName">Your Name:</label>
+                    <input type="text" id="userName" placeholder="e.g., Amit Bhatia" required>
+                </div>
+                <div class="form-group">
+                    <label for="parentName">Parent's Name:</label>
+                    <input type="text" id="parentName" placeholder="e.g., Prakash Bhatia" required>
+                </div>
+                <button type="submit">Unlock Graph</button>
+                <div id="loginError" class="error"></div>
+            </form>
+            <div id="loadingStatus">Loading family data from GitHub...</div>
+        </div>
+
+        <!-- Graph Container -->
+        <div id="graphContainer">
+            <div id="network"></div>
+            <div id="controls">
+                <button id="darkModeToggle">Dark Mode</button>
+                <button id="logoutBtn">Logout</button>
+                <div id="userInfo"></div>
+
+                <!-- Depth Control -->
+                <div class="control-section">
+                    <h3>Visibility Depth</h3>
+                    <div class="slider-container">
+                        <input type="range" id="depthSlider" min="0" max="3" value="2" step="1">
+                        <span id="depthValue">2 levels</span>
+                    </div>
+                    <button id="applyDepth" class="small-btn">Apply</button>
+                </div>
+
+                <!-- Layout Control -->
+                <div class="control-section">
+                    <h3>Layout</h3>
+                    <button id="layoutNetwork" class="layout-btn active">Network</button>
+                    <button id="layoutTree" class="layout-btn">Tree</button>
+                </div>
+
+                <!-- Edge Controls -->
+                <div class="control-section">
+                    <h3>Show Edges</h3>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="showParentEdges" checked>
+                        <span>Parent-Child</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="showSpouseEdges" checked>
+                        <span>Spouse</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="showSiblingEdges" checked>
+                        <span>Sibling</span>
+                    </label>
+                </div>
+
+                <!-- Edge Label Control -->
+                <div class="control-section">
+                    <h3>Edge Labels</h3>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="showEdgeLabels" checked>
+                        <span>Show Labels</span>
+                    </label>
+                </div>
+
+                <!-- Hide Unrevealed Nodes -->
+                <div class="control-section">
+                    <h3>Display Options</h3>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="hideUnrevealedNodes" checked>
+                        <span>Hide Unrevealed Nodes</span>
+                    </label>
+                </div>
+
+                <div id="legend">
+                    <h3>Relationships</h3>
+                    <div class="legend-item">
+                        <span class="legend-line parent"></span>
+                        <span>Parent-Child</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-line spouse"></span>
+                        <span>Spouse</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-line sibling"></span>
+                        <span>Sibling</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
