@@ -1,4 +1,5 @@
 ---
+parent: [[[Gopaldas Bhatia]], [[Meera Bhatia]]]
 child: [[[Manasvini Ramanan Bhatia]], [[Mrinalini Ramanan Bhatia]]]
 wife: [[Anuradha Ramanan]]
 ---

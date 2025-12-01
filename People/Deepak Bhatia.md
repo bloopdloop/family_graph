@@ -1,6 +1,7 @@
 ---
-wife: [[Jyoti Bhatia]]
+parent: [[Radha Bhatia]]
 child: [[[Sanjana Bhatia]], [[Harshita Bhatia]]]
+wife: [[Jyoti Bhatia]]
 ---
 # Deepak Bhatia
 #people

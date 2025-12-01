@@ -1,3 +1,6 @@
+---
+parent: [[Ashok Gandhi]]
+---
 # Nishant Gandhi
 #people
 ### Photo

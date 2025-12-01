@@ -1,7 +1,7 @@
 ---
-husband: [[Hari Bhatia]]
+parent: [[Khanchand Lalla]]
 child: [[[Renuka Chaudhari]], [[Geeta Ganpule]], [[Jaidev Bhatia]]]
-
+husband: [[Hari Bhatia]]
 ---
 # Rekha Bhatia
 #people

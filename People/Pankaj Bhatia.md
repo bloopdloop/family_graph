@@ -1,7 +1,7 @@
 ---
-wife: [[Sambhooti Arora]]
+parent: [[[Indu Bhatia]], [[Jagdish Bhatia]]]
 child: [[Anaahad Bhatia]]
-parent: [[Indu Bhatia]]
+wife: [[Sambhooti Arora]]
 ---
 # Pankaj Bhatia
 #people

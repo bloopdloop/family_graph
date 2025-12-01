@@ -1,6 +1,7 @@
 ---
-husband: [[Chandar Bhatia]]
+parent: [[Duru Bhatia]]
 child: [[[Vinay Bhatia]], [[Kushal Bhatia]]]
+husband: [[Chandar Bhatia]]
 ---
 # Neelam Bhatia
 #people

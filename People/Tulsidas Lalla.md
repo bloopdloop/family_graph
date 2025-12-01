@@ -1,6 +1,7 @@
 ---
-wife: [[Aatma Lalla]]
+parent: [[Khanchand Lalla]]
 child: [[Deepak Lalla]]
+wife: [[Aatma Lalla]]
 ---
 # Tulsidas Lalla
 #people

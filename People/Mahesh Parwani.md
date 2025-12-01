@@ -1,6 +1,8 @@
 ---
-wife: [[Madhu Parwani]]
+parent: [[Anand Parwani]]
 child: [[[Avisha Parwani]], [[Nikita Parwani]]]
+wife: [[Madhu Parwani]]
+sibling: [[Jagdish Parwani]]
 ---
 # Mahesh Parwani
 #people

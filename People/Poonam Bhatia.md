@@ -1,6 +1,7 @@
 ---
-husband: [[Mukesh Bhatia]]
+parent: [[[Jyoti Lalla]], [[Prem Khanchand Lalla]]]
 child: [[Pratishtha Bhatia]]
+husband: [[Mukesh Bhatia]]
 ---
 
 # Poonam Bhatia

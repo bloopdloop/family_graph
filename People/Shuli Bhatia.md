@@ -1,6 +1,7 @@
 ---
-husband: [[Haresh Bhatia]]
+parent: [[Dewan Bhatia]]
 child: [[Amit Haresh Bhatia]]
+husband: [[Haresh Bhatia]]
 ---
 # Shuli Bhatia
 #people

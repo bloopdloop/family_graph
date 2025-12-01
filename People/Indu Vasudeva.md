@@ -1,7 +1,7 @@
 ---
-husband: [[Manish Vasudeva]]
+parent: [[[Jawahar Israni]], [[Maya Israni]]]
 child: [[[Prakriti Vasudeva]], [[Arooja Vasudeva]]]
-parent: [[Jawahar Israni]]
+husband: [[Manish Vasudeva]]
 ---
 # Indu Vasudeva
 #people

@@ -1,5 +1,4 @@
 ---
+parent: [[[Mohan Jethwani]], [[Bhavna Jethwani]]]
 wife: [[Riddhima Jethwani]]
-parent: [[Mohan Jethwani]]
-children: [[Tarasha Jethwani]]
 ---

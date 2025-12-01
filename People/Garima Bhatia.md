@@ -1,5 +1,7 @@
 ---
+parent: [[[Jyoti Lalla]], [[Prem Khanchand Lalla]]]
 child: [[[Josita Bhatia]], [[Yastika Bhatia]]]
+husband: [[Harish Bhatia]]
 ---
 # Garima Bhatia
 #people

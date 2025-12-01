@@ -1,6 +1,7 @@
 ---
-husband: [[Rahul Bhasin]]
+parent: [[Ganga Khanchandani]]
 child: [[[Anish Bhasin]], [[Aarav Bhasin]]]
+husband: [[Rahul Bhasin]]
 ---
 # Preeti Bhasin
 #people

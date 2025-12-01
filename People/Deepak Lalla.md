@@ -1,6 +1,7 @@
 ---
-wife: [[Hema Lalla]]
+parent: [[Tulsidas Lalla]]
 child: [[[Anand Lalla]], [[Julie Parmar]], [[Kunal Lalla]]]
+wife: [[Hema Lalla]]
 ---
 # Deepak Lalla
 #people

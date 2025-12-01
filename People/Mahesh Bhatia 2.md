@@ -1,5 +1,6 @@
 ---
-child: [[Jitin Bhatia]], [[Puneet Bhatia]]]
+parent: [[Duru Bhatia]]
+child: [[[Jitin Bhatia]], [[Puneet Bhatia]]]
 wife: [[Bharti Bhatia]]
 ---
 # Mahesh Bhatia

@@ -1,4 +1,5 @@
 ---
+parent: [[Ratna Bhatia]]
 child: [[Miraya Bhatia]]
 wife: [[Bhavna Bhatia 2]]
 ---

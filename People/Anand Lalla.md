@@ -1,6 +1,7 @@
 ---
-wife: [[Rupali Lalla]]
+parent: [[Deepak Lalla]]
 child: [[Aarna Lalla]]
+wife: [[Rupali Lalla]]
 ---
 # Anand Lalla
 #people

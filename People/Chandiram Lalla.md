@@ -1,6 +1,7 @@
 ---
-wife: [[Kaushalya Parwani]]
+parent: [[Khanchand Lalla]]
 child: [[Shyam Lalla]]
+wife: [[Kaushalya Parwani]]
 ---
 # Chandiram Lalla
 #people

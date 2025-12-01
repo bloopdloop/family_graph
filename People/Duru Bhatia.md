@@ -1,4 +1,5 @@
 ---
+parent: [[Khanchand Lalla]]
 child: [[[Champa Bhatia]], [[Rupam Manchandia]], [[Mahesh Bhatia 2]], [[Neelam Bhatia]], [[Rena Bhatia]]]
 husband: [[Shyam Sundar Bhatia]]
 ---

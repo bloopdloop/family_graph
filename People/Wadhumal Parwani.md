@@ -1,4 +1,5 @@
 ---
+parent: [[[Bulchand Parwani]], [[Sukhramdas Bulchand Parwani]]]
 child: [[Gopal Parwani]]
 ---
 # Wadhumai Parwani

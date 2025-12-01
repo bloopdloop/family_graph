@@ -1,3 +1,6 @@
+---
+husband: [[Jagdish Parwani]]
+---
 # Sangeeta Parwani
 #people
 ### Photo

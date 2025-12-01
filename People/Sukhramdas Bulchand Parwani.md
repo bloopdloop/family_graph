@@ -1,6 +1,6 @@
 ---
-child: [[Wadhumal Parwani]], [[Thanwardas Parwani]]]
 parent: [[Bulchand Parwani]]
+child: [[[Wadhumal Parwani]], [[Thanwardas Parwani]], [[Meera Bhatia]], [[Anand Parwani]], [[Rajni Bhatia 2]]]
 ---
 # Sukhramdas Bulchand Parwani
 #people

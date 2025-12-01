@@ -1,3 +1,7 @@
+---
+parent: [[Leela Bhatia]]
+child: [[[Kiran Bhatia]], [[Mohit Bhatia]]]
+---
 
 ---
 wife: [[Kanchan Bhatia]]

@@ -1,4 +1,5 @@
 ---
+parent: [[[Jyoti Lalla]], [[Prem Khanchand Lalla]]]
 wife: [[Sudha Lalla]]
 ---
 # Sunil Lalla 

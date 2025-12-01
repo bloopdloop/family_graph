@@ -1,6 +1,7 @@
 ---
-wife: [[Mitali Bhatia]]
+parent: [[Neelam Bhatia]]
 child: [[Kavya Bhatia]]
+wife: [[Mitali Bhatia]]
 ---
 # Vinay Bhatia
 #people

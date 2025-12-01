@@ -1,7 +1,7 @@
 ---
-parent: [[Shayam Sundar Bhatia]]
-husband: [[Mahesh Manchandia]]
+parent: [[[Shayam Sundar Bhatia]], [[Duru Bhatia]]]
 child: [[[Ajay Manchandia]], [[Karan Manchandia]]]
+husband: [[Mahesh Manchandia]]
 ---
 # Rupam Manchandia
 #people

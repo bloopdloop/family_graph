@@ -1,5 +1,5 @@
 ---
-TODO
+parent: [[Leela Bhatia]]
 ---
 # Naresh Bhatia
 #people

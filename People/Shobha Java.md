@@ -1,6 +1,7 @@
 ---
-husband: [[Rajendra Java]]
+parent: [[Ram Lalla]]
 child: [[Karan Java]]
+husband: [[Rajendra Java]]
 ---
 # Shobha Java
 #people

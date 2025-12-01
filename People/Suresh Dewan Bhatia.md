@@ -1,6 +1,7 @@
 ---
-wife: [[Komal Bhatia]]
+parent: [[Dewan Bhatia]]
 child: [[[Prateek Bhatia]], [[Vibuhuti Bhatia]]]
+wife: [[Komal Bhatia]]
 ---
 # Suresh Dewan Bhatia
 #people

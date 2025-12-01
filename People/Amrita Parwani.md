@@ -1,4 +1,5 @@
 ---
+parent: [[Sunil Parwani]]
 husband: [[Neelesh Balani]]
 ---
 # Amrita Parwani

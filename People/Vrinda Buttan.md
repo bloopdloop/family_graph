@@ -1,6 +1,7 @@
 ---
-husband: [[Manish Buttan]]
+parent: [[Ratna Bhatia]]
 child: [[[Sia Buttan]], [[Kabir Buttan]]]
+husband: [[Manish Buttan]]
 ---
 # Vrinda Buttan
 #people

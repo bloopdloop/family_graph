@@ -1,6 +1,6 @@
 ---
-parent: [[Hema Gandhi]]
-child: [[[Hanisha Sibal]]]
+parent: [[[Hema Gandhi]], [[Ramesh Gandhi]]]
+child: [[Hanisha Sibal]]
 husband: [[Jatin Sibal]]
 ---
 # Gayatri Sibil

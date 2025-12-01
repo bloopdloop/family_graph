@@ -1,6 +1,7 @@
 ---
-husband: [[Ratan Bhatia]]
+parent: [[Duru Bhatia]]
 child: [[[Pratham Bhatia]], [[Divya Bhatia]]]
+husband: [[Ratan Bhatia]]
 ---
 # Rena Bhatia
 #people

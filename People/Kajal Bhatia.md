@@ -1,4 +1,5 @@
 ---
+parent: [[Jagdish Bhatia]]
 child: [[Bhavna Bhatia]]
 husband: [[Anil Bhatia]]
 ---

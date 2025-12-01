@@ -1,6 +1,7 @@
 ---
-husband: [[Dhiraj Israni]]
+parent: [[Mohan Bhatia]]
 child: [[Aditya Israni]]
+husband: [[Dhiraj Israni]]
 ---
 # Rashmi Israni
 #people

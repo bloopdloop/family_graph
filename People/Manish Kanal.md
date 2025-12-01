@@ -1,6 +1,7 @@
 ---
-wife: [[Ananta Gandhi Kanal]]
+parent: [[Bhisham Kanal]]
 child: [[[Mannat Kanal]], [[Reet Kanal]]]
+wife: [[Ananta Gandhi Kanal]]
 ---
 # Manish Kanal
 #people

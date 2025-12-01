@@ -1,6 +1,7 @@
 ---
-wife: [[Arpana Bhatia]]
+parent: [[Rajni Bhatia 2]]
 child: [[Angad Bhatia]]
+wife: [[Arpana Bhatia]]
 ---
 # Rajkumar Bhatia
 #people

@@ -1,4 +1,5 @@
 ---
+parent: [[Mahesh Bhatia 2]]
 wife: [[Yashi Madaan]]
 ---
 # Puneet Bhatia

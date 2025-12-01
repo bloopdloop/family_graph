@@ -1,11 +1,5 @@
 ---
-parent:
-  - - - Mulchand Gandhi
-  - - - Jasota Gandhi
-child:
-  - - - Kanchan Java
-  - - - Vandana Kanal
-  - - - Arpana Bhatia
+child: [[[Vandana Kanal]], [[Arpana Bhatia]], [[Kanchan Java]]]
 ---
 # Mohanlal Gandhi
 #people

@@ -1,4 +1,5 @@
 ---
+parent: [[Rena Bhatia]]
 husband: [[Shekhar Abhishek]]
 ---
 # Divya Bhatia

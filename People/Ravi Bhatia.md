@@ -1,6 +1,7 @@
 ---
-child: [[[Ankit Bhatia]], [[Arushi Bhatia]]]
 parent: [[[Gopaldas Bhatia]], [[Meera Bhatia]]]
+child: [[[Ankit Bhatia]], [[Arushi Bhatia]]]
+wife: [[Naina Bhatia]]
 ---
 # Ravi Bhatia
 #people

@@ -1,6 +1,7 @@
 ---
-husband: [[Khushiram Parwani]]
+parent: [[Khanchand Lalla]]
 child: [[[Sudhir Parwani]], [[Bhavna Jethwani]], [[Pappu Parwani]], [[Sunil Parwani]]]
+husband: [[Khushiram Parwani]]
 ---
 # Savitri Parwani
 #people

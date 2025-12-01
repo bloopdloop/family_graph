@@ -1,7 +1,7 @@
 ---
-husband: [[Karl Nazir]]
+parent: [[[Suresh Bhatia 2]], [[Ratna Bhatia]]]
 child: [[Zane Nazir]]
-parent: [[Suresh Bhatia 2]]
+husband: [[Karl Nazir]]
 ---
 # Geet Bhatia
 #people

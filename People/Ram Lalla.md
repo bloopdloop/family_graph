@@ -1,6 +1,7 @@
 ---
-wife: [[Meera Lalla]]
+parent: [[Khanchand Lalla]]
 child: [[[Shobha Java]], [[Mahender Lalla]]]
+wife: [[Meera Lalla]]
 ---
 # Ram Lalla
 #people

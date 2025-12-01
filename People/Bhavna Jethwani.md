@@ -1,6 +1,7 @@
 ---
-husband: [[Mohan Jethwani]]
+parent: [[Savitri Parwani]]
 child: [[[Sandeep Jethwani]], [[Mukul Jethwani]], [[Manish Jethwani]]]
+husband: [[Mohan Jethwani]]
 ---
 # Bhavna Jethwani
 #people

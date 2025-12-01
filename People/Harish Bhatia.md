@@ -1,4 +1,5 @@
 ---
+parent: [[Shushila Bhatia]]
 wife: [[Garima Bhatia]]
 ---
 # Harish Bhatia

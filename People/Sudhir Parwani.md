@@ -1,6 +1,7 @@
 ---
-wife: [[Anjali Parwani]]
+parent: [[Savitri Parwani]]
 child: [[[Sameer Parwani]], [[Yogesh Parwani]]]
+wife: [[Anjali Parwani]]
 ---
 # Sudhir Parwani
 #people

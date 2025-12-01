@@ -1,5 +1,5 @@
 ---
-parent: [[Anuradha Ramanan]]
+parent: [[[Anuradha Ramanan]], [[Rajesh Bhatia]]]
 ---
 # Mrinalini Ramanan Bhatia
 #people

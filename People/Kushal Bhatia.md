@@ -1,7 +1,7 @@
 ---
-wife: [[Yogita Bhatia]]
+parent: [[[Chandar Bhatia]], [[Neelam Bhatia]]]
 child: [[Tanu Bhatia]]
-parent: [[Chandar Bhatia]]
+wife: [[Yogita Bhatia]]
 ---
 # Kushal Bhatia
 #people

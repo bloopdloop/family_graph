@@ -1,3 +1,6 @@
+---
+husband: [[Ajay Manchandia]]
+---
 # Aparna Manchandia
 #people
 ### Photo

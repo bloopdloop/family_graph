@@ -1,6 +1,7 @@
 ---
-sibling: [[[Rajni Bhatia 2]], [[Meera Bhatia]]]
+parent: [[[Sukhramdas Bulchand Parwani]], [[Parvati Parwani]]]
 child: [[[Mahesh Parwani]], [[Jagdish Parwani]], [[Bharti Jotwani]]]
+sibling: [[[Rajni Bhatia 2]], [[Meera Bhatia]]]
 ---
 # Anand Parwani
 #people

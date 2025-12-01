@@ -1,7 +1,7 @@
 ---
-parent: [[Mahesh Manchandia]]
-wife: [[Suneet Manchandia]]
+parent: [[[Mahesh Manchandia]], [[Rupam Manchandia]]]
 child: [[[Aarav Manchandia]], [[Elisha Manchandia]], [[Neel Manchandia]]]
+wife: [[Suneet Manchandia]]
 ---
 # Karan Manchandia
 #people

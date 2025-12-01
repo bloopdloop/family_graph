@@ -1,4 +1,5 @@
 ---
+parent: [[Ramesh Gandhi]]
 wife: [[Samriti Grover]]
 ---
 # Mohan Gandhi

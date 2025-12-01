@@ -1,3 +1,6 @@
+---
+parent: [[Rajesh Bhatia]]
+---
 # Manasvini Ramanan Bhatia
 #people
 ### Photo

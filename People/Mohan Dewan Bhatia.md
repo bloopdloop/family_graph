@@ -1,6 +1,7 @@
 ---
-wife: [[Vanita Bhatia]]
+parent: [[Dewan Bhatia]]
 child: [[Hetal Bhatia]]
+wife: [[Vanita Bhatia]]
 ---
 # Mohan Dewan Bhatia
 #people

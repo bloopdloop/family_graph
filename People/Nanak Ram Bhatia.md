@@ -1,5 +1,5 @@
 ---
-sibling: [[Shushila Bhatia]]
+child: [[Mukesh Bhatia]]
 ---
 # Nanak Ram Bhatia
 #people

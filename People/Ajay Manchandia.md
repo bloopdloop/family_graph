@@ -1,6 +1,7 @@
 ---
-wife: [[Aparna Manchandia]]
+parent: [[Rupam Manchandia]]
 child: [[[Naveen Manchandia]], [[Neerav Manchandia]]]
+wife: [[Aparna Manchandia]]
 ---
 # Ajay Manchandia
 #people

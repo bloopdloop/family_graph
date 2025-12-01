@@ -1,6 +1,7 @@
 ---
-wife: [[Shweta Parwani]]
+parent: [[Sudhir Parwani]]
 child: [[Anaisha Parwani]]
+wife: [[Shweta Parwani]]
 ---
 #  Yogesh Parwani
 #people

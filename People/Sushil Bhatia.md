@@ -1,6 +1,7 @@
 ---
-wife: [[Renu Bhatia]]
+parent: [[Lakshmi Bhatia]]
 child: [[Aastha Bhatia]]
+wife: [[Renu Bhatia]]
 ---
 # Sushil Bhatia
 #people

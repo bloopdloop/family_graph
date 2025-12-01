@@ -1,5 +1,5 @@
 ---
-parent: [[Kanaiya Khanchandani]]
+parent: [[[Kanaiya Khanchandani]], [[Ganga Khanchandani]]]
 child: [[[Arjun Khanchandani]], [[Bhavya Khanchandani]]]
 wife: [[Amrita Ganju Khanchandani]]
 ---

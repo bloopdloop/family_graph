@@ -1,7 +1,7 @@
 ---
-husband: [[Rohit Rai]]
+parent: [[[Asha Kanal]], [[Bhisham Kanal]]]
 child: [[Ruhaan Rai]]
-parent: [[Asha Kanal]]
+husband: [[Rohit Rai]]
 ---
 # Neha Kanal Rai
 #people

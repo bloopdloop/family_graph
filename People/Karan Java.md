@@ -1,5 +1,5 @@
 ---
-parent: [[Rajendra Java]]
+parent: [[[Rajendra Java]], [[Shobha Java]]]
 child: [[[Dhir Java]], [[Vritee Java]]]
 wife: [[Mamta Java]]
 ---

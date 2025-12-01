@@ -1,6 +1,7 @@
 ---
-wife: [[Amrita Parwani 2]]
+parent: [[Sudhir Parwani]]
 child: [[Samaira Parawani]]
+wife: [[Amrita Parwani 2]]
 ---
 # Sameer Parwani
 #people

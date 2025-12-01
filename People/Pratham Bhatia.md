@@ -1,3 +1,6 @@
+---
+parent: [[Rena Bhatia]]
+---
 # Pratham Bhatia (Deceased)
 #people
 ### Photo

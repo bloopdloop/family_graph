@@ -1,4 +1,5 @@
 ---
+parent: [[Mahesh Bhatia 2]]
 wife: [[Naushi Bhatia]]
 ---
 # Jitin Bhatia

@@ -1,4 +1,5 @@
 ---
+child: [[Vinod Lalla]]
 husband: [[Shyam Lalla]]
 ---
 # Kanta Lalla

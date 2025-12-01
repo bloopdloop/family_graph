@@ -1,6 +1,7 @@
 ---
-wife: [[Geetika Israni]]
+parent: [[Maya Israni]]
 child: [[Aryaman Israni]]
+wife: [[Geetika Israni]]
 ---
 # Uttam Israni
 #people

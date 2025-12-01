@@ -1,6 +1,7 @@
 ---
-husband: [[Mahesh Bhatia]]
+parent: [[Lakshmi Bhatia]]
 child: [[Upasna Bhatia Saini]]
+husband: [[Mahesh Bhatia]]
 ---
 # Ritu Bhatia
 #people
